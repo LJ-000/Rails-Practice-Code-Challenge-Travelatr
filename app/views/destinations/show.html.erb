@@ -1,0 +1,10 @@
+<h1> Show Destination Page </h1>
+
+<h3><%= @destination.name %></h3>
+<p><%= @destination.country %></p> 
+<p><% @last_posts.each do |post| %>
+Latest: <%= post.title %>
+<% end %> 
+</p>
+
+Most Liked: <%= @most_liked.title%> 
